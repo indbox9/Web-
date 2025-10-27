@@ -1,4 +1,4 @@
-/* --- CSS Reset & Base Styles --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f8f9fa; /* Fallback color */
-    /* Soft gradient background as seen in the image */
+    background-color: #f8f9fa; 
     background-image: radial-gradient(at 0% 0%, hsla(253, 100%, 95%, 1) 0px, transparent 50%),
                       radial-gradient(at 100% 0%, hsla(240, 100%, 95%, 1) 0px, transparent 50%);
     background-repeat: no-repeat;
@@ -28,13 +27,13 @@ body {
     padding: 5rem 0;
 }
 
-/* --- Navigation Bar --- */
+
 .navbar {
     background-color: transparent;
     padding: 1.5rem 0;
 }
 
-/* We need to apply flex properties to the container *inside* the navbar */
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -46,14 +45,14 @@ body {
     align-items: center;
     font-weight: 700;
     font-size: 1.25rem;
-    color: #2b35a9; /* Dark blue from logo */
+    color: #2b35a9; 
     text-decoration: none;
 }
 
 .logo-icon {
     width: 32px;
     height: 32px;
-    background-color: #5856d6; /* Purple from logo */
+    background-color: #5856d6;
     border-radius: 8px;
     margin-right: 0.75rem;
 }
@@ -76,9 +75,49 @@ body {
     transition: color 0.3s, border-color 0.3s;
 }
 
-.nav-links li a svg {
-    stroke-width: 2;
-    transition: transform 0.3s;
+.nav-links li a i,
+.button-group .btn i,
+.stat-icon-wrapper i,
+.feature-icon-wrapper i,
+.about-list-icon i {
+    font-size: 20px; /* match previous SVG size */
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: inherit; /* inherit link color so hover/active works */
+    transition: transform 0.3s, color 0.3s;
+    transform-origin: center;
+    vertical-align: middle;
+}
+
+.nav-links li a:hover i {
+    transform: scale(1.1);
+}
+
+/* ensure active link color applies to icons */
+.nav-links li a.active i {
+    color: #5856d6;
+}
+
+/* Button icons: spacing and slightly smaller size to match text */
+.btn i {
+    margin-left: 0.5rem;
+    font-size: 0.95rem;
+}
+
+/* Allow wrappers to contain either SVG or <i> and scale to fit */
+.stat-icon-wrapper svg,
+.feature-icon-wrapper svg,
+.about-list-icon svg,
+.stat-icon-wrapper i,
+.feature-icon-wrapper i,
+.about-list-icon i {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .nav-links li a:hover {
@@ -461,7 +500,7 @@ body {
         align-items: stretch;
     }
 
-    /* New Responsive Styles */
+
     .section-padding {
         padding: 3rem 0;
     }
