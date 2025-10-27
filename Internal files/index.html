@@ -1,19 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompanyName - Home</title>
+    
+    <!-- Google Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
-<title>
-Pagina principală
-</title>
 </head>
 <body>
-<h1>Franz Richard</h1>
-<div>
 
-<img src="source/DSC_4870.JPG" alt="text" width="25%" height="25%"></div>
+    <!-- Header & Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon"></div>
+                <span>CompanyName</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#" class="active">
+                            <!-- Home Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <!-- Services/Briefcase Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <!-- About/Info Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <!-- Contact/Mail Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <!-- Left Content -->
+                <div class="hero-content">
+                    <span class="badge">
+                        <!-- Sparkle Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3L12 5L14 3L12 1L10 3Z"></path><path d="M21 12L19 10L21 8L23 10L21 12Z"></path><path d="M3 12L1 10L3 8L5 10L3 12Z"></path><path d="M12 21L10 19L12 17L14 19L12 21Z"></path><path d="M12 3L12 5"></path><path d="M12 19L12 21"></path><path d="M21 12L19 12"></path><path d="M5 12L3 12"></path><path d="M19.0711 4.92893L17.6569 6.34315"></path><path d="M6.34315 17.6569L4.92893 19.0711"></path><path d="M19.0711 19.0711L17.6569 17.6569"></path><path d="M6.34315 6.34315L4.92893 4.92893"></path></svg>
+                        Welcome to CompanyName
+                    </span>
+                    
+                    <h1>We create beautiful digital experiences</h1>
+                    
+                    <p class="subtitle">
+                        A minimalist approach to design and development. We focus on what
+                        matters most, delivering clean, functional solutions that stand the test of
+                        time.
+                    </p>
+                    
+                    <div class="button-group">
+                        <a href="#" class="btn btn-primary">
+                            Explore Services
+                            <!-- Arrow Right Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+
+                <!-- Right Content (Stats Cards) -->
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper" style="--icon-bg: #e6f0ff; --icon-color: #2979ff;">
+                            <!-- Star Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <div class="stat-text">
+                            <h3>100+ Projects</h3>
+                            <p>Successfully Delivered</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper" style="--icon-bg: #e8e6ff; --icon-color: #5856d6;">
+                            <!-- Thumbs Up Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
+                        </div>
+                        <div class="stat-text">
+                            <h3>98% Satisfaction</h3>
+                            <p>Client Rating</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper" style="--icon-bg: #ffe6f1; --icon-color: #ff2d78;">
+                            <!-- Users Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <div class="stat-text">
+                            <h3>50+ Clients</h3>
+                            <p>Worldwide Trust</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section section-padding">
+            <div class="container">
+                <div class="features-grid">
+                    <!-- Feature Card 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper" style="--icon-bg: #e8e6ff; --icon-color: #5856d6;">
+                            <!-- Target/Focus Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        </div>
+                        <span class="number">01</span>
+                        <h3>Simplicity</h3>
+                        <p>We believe in the power of simplicity. Every element serves a purpose.</p>
+                    </div>
+
+                    <!-- Feature Card 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper" style="--icon-bg: #e8e6ff; --icon-color: #5856d6;">
+                            <!-- Magic Wand/Star Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L9.65 8.76L4 9.71L8.2 13.5L7.24 19.01L12 16.09L16.76 19.01L15.8 13.5L20 9.71L14.35 8.76L12 3Z"></path></svg>
+                        </div>
+                        <span class="number">02</span>
+                        <h3>Quality</h3>
+                        <p>Attention to detail in every pixel, every interaction, every line of code.</p>
+                    </div>
+
+                    <!-- Feature Card 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper" style="--icon-bg: #ffe6f1; --icon-color: #ff2d78;">
+                            <!-- Users/Communication Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <span class="number">03</span>
+                        <h3>Clarity</h3>
+                        <p>Clear communication and transparent processes from start to finish.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding">
+            <div class="container">
+                <div class="about-content">
+                    <h2>Built for modern teams</h2>
+                    <p>
+                        We understand the challenges of building digital products in today's fast-paced world.
+                        Our approach combines strategic thinking with beautiful execution to deliver results that matter.
+                    </p>
+                    <ul class="about-list">
+                        <li class="about-list-item">
+                            <div class="about-list-icon">
+                                <!-- Dot Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"></circle></svg>
+                            </div>
+                            <div class="about-list-text">
+                                <h4>User-Centered Design</h4>
+                                <p>Every decision is made with your users in mind</p>
+                            </div>
+                        </li>
+                        <li class="about-list-item">
+                            <div class="about-list-icon">
+                                <!-- Dot Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"></circle></svg>
+                            </div>
+                            <div class="about-list-text">
+                                <h4>Scalable Solutions</h4>
+                                <p>Built to grow with your business</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image-wrapper">
+                    <!-- Using a placeholder image -->
+                    <img src="https://placehold.co/600x450/2d3e50/ffffff?text=Modern+Workspace" alt="Modern desk setup with a computer and speakers">
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
-<p>Sunt student la Universitatea de stat Aleco Russo, în cadrul Facultății de Informatică, unde îmi continui studiile în domeniul tehnologiilor informației. Am absolvit Colegiul Politehnic, unde am dobândit o bază solidă în domeniul informaticii, ceea ce mi-a consolidat pasiunea pentru acest sector. Pe parcursul studiilor universitare, am avut ocazia să aprofundez cunoștințele teoretice și practice, iar în prezent sunt dedicat învățării unor tehnologii noi și soluționării de probleme complexe. Sunt motivat să continui să cresc atât profesional, cât și personal, și îmi doresc să contribui la dezvoltarea inovativă a domeniului IT.</p>
-<p></p>
 </html>
+
