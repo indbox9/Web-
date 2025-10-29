@@ -8,9 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #f8f9fa; 
     background-image: radial-gradient(at 0% 0%, hsla(253, 100%, 95%, 1) 0px, transparent 50%),
-                      radial-gradient(at 100% 0%, hsla(240, 100%, 95%, 1) 0px, transparent 50%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    radial-gradient(at 100% 0%, hsla(240, 100%, 95%, 1) 0px, transparent 50%);
     color: #333;
     line-height: 1.6;
 }
@@ -103,7 +101,7 @@ body {
     font-weight: 700;
 }
 
-/* --- Hero Section --- */
+
 .hero-section {
     
     padding: 4rem 0;
@@ -116,7 +114,7 @@ body {
     align-items: center;
 }
 
-/* --- Hero Left  --- */
+
 .hero-content .badge {
     display: inline-flex;
     align-items: center;
@@ -129,9 +127,7 @@ body {
     font-size: 0.875rem;
 }
 
-.hero-content .badge svg {
-    color: #5856d6;
-}
+
 
 .hero-content h1 {
     font-size: 3rem;
@@ -193,7 +189,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* --- Hero Right --- */
+
 .hero-stats {
     display: flex;
     flex-direction: column;
@@ -295,7 +291,7 @@ body {
     line-height: 1.6;
 }
 
-/* --- About  --- */
+/* About */
 .about-section .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -369,7 +365,7 @@ body {
 }
 
 
-/* --- Footer --- */
+/*Footer*/
 .site-footer {
     background-color: #ffffff;
     padding: 4rem 0 2rem;
@@ -450,7 +446,7 @@ body {
     }
 }
 
-/* --- Responsive Design --- */
+/*Responsive Design*/
 @media (max-width: 992px) {
     .hero-section .container {
         grid-template-columns: 1fr;
